@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+    <title>Prime Number Checker</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prime Number Checker</h1>
+        <input type="number" id="input" placeholder="Enter a number">
+        <button onclick="cPrime()">Check</button>
+        <p id="result"></p>
+        <p id="number"></p>
+    </div>
+    <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
